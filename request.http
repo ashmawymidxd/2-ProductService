@@ -1,0 +1,13 @@
+# GET request to fetch products
+POST http://127.0.0.1:20000/api/products
+Content-Type: application/json
+    
+# Request body
+{
+    "name": "Product 1",
+    "price": 100,
+    "cate"
+}
+
+# Optionally, you can add headers if needed
+# Authorization: Bearer <your-token>
